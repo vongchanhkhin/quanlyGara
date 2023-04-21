@@ -52,5 +52,18 @@ namespace QLGR.DataLayer
             db.dt = new DataTable();
             da.Fill(db.dt);
         }
+        public static void SuaHieuXe(string hieuXe, string hieuXeMoi)
+        {
+            DataAccessHelper db = new DataAccessHelper();
+            SqlCommand cmd = db.Command("CAPNHATHIEUXE");
+
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@HIEUXE", hieuXe);
+            cmd.Parameters.AddWithValue("@HIEUXEMOI", hieuXeMoi);
+
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            db.dt = new DataTable();
+            da.Fill(db.dt);
+        }
     }
 }

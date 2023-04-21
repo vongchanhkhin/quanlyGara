@@ -38,9 +38,16 @@
             this.labelX1 = new DevComponents.DotNetBar.LabelX();
             this.txtHieuXe = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.labelX9 = new DevComponents.DotNetBar.LabelX();
+            this.groupPanel3 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.cboSuaHieuXe = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+            this.labelX4 = new DevComponents.DotNetBar.LabelX();
+            this.btnSua = new DevComponents.DotNetBar.ButtonX();
+            this.labelX3 = new DevComponents.DotNetBar.LabelX();
+            this.txtSuaHieuXe = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.btnThoat = new DevComponents.DotNetBar.ButtonX();
             this.groupPanel1.SuspendLayout();
             this.groupPanel2.SuspendLayout();
+            this.groupPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupPanel1
@@ -51,9 +58,10 @@
             this.groupPanel1.Controls.Add(this.btnXoa);
             this.groupPanel1.Controls.Add(this.cboHieuXe);
             this.groupPanel1.Controls.Add(this.labelX2);
-            this.groupPanel1.Location = new System.Drawing.Point(49, 81);
+            this.groupPanel1.Location = new System.Drawing.Point(44, 113);
+            this.groupPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.groupPanel1.Name = "groupPanel1";
-            this.groupPanel1.Size = new System.Drawing.Size(274, 173);
+            this.groupPanel1.Size = new System.Drawing.Size(297, 213);
             // 
             // 
             // 
@@ -76,15 +84,17 @@
             this.groupPanel1.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
             this.groupPanel1.TabIndex = 1;
             this.groupPanel1.Text = "Xóa hiệu xe";
+            this.groupPanel1.Click += new System.EventHandler(this.groupPanel1_Click);
             // 
             // btnXoa
             // 
             this.btnXoa.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnXoa.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnXoa.Image = ((System.Drawing.Image)(resources.GetObject("btnXoa.Image")));
-            this.btnXoa.Location = new System.Drawing.Point(90, 110);
+            this.btnXoa.Location = new System.Drawing.Point(79, 135);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(4);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(85, 26);
+            this.btnXoa.Size = new System.Drawing.Size(113, 32);
             this.btnXoa.TabIndex = 35;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
@@ -96,20 +106,24 @@
             this.cboHieuXe.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboHieuXe.FormattingEnabled = true;
             this.cboHieuXe.ItemHeight = 18;
-            this.cboHieuXe.Location = new System.Drawing.Point(3, 54);
+            this.cboHieuXe.Location = new System.Drawing.Point(4, 66);
+            this.cboHieuXe.Margin = new System.Windows.Forms.Padding(4);
             this.cboHieuXe.Name = "cboHieuXe";
-            this.cboHieuXe.Size = new System.Drawing.Size(262, 24);
+            this.cboHieuXe.Size = new System.Drawing.Size(265, 24);
             this.cboHieuXe.TabIndex = 37;
+            this.cboHieuXe.SelectedIndexChanged += new System.EventHandler(this.cboHieuXe_SelectedIndexChanged);
             // 
             // labelX2
             // 
             this.labelX2.BackColor = System.Drawing.Color.Transparent;
             this.labelX2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelX2.Location = new System.Drawing.Point(3, 14);
+            this.labelX2.Location = new System.Drawing.Point(4, 17);
+            this.labelX2.Margin = new System.Windows.Forms.Padding(4);
             this.labelX2.Name = "labelX2";
-            this.labelX2.Size = new System.Drawing.Size(149, 29);
+            this.labelX2.Size = new System.Drawing.Size(199, 36);
             this.labelX2.TabIndex = 8;
             this.labelX2.Text = "Chọn hiệu xe cần xóa";
+            this.labelX2.Click += new System.EventHandler(this.labelX2_Click);
             // 
             // groupPanel2
             // 
@@ -119,9 +133,10 @@
             this.groupPanel2.Controls.Add(this.btnThem);
             this.groupPanel2.Controls.Add(this.labelX1);
             this.groupPanel2.Controls.Add(this.txtHieuXe);
-            this.groupPanel2.Location = new System.Drawing.Point(338, 81);
+            this.groupPanel2.Location = new System.Drawing.Point(368, 113);
+            this.groupPanel2.Margin = new System.Windows.Forms.Padding(4);
             this.groupPanel2.Name = "groupPanel2";
-            this.groupPanel2.Size = new System.Drawing.Size(274, 173);
+            this.groupPanel2.Size = new System.Drawing.Size(298, 213);
             // 
             // 
             // 
@@ -144,15 +159,17 @@
             this.groupPanel2.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
             this.groupPanel2.TabIndex = 1;
             this.groupPanel2.Text = "Thêm hiệu xe";
+            this.groupPanel2.Click += new System.EventHandler(this.groupPanel2_Click);
             // 
             // btnThem
             // 
             this.btnThem.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnThem.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnThem.Image = ((System.Drawing.Image)(resources.GetObject("btnThem.Image")));
-            this.btnThem.Location = new System.Drawing.Point(92, 110);
+            this.btnThem.Location = new System.Drawing.Point(82, 135);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(4);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(85, 26);
+            this.btnThem.Size = new System.Drawing.Size(113, 32);
             this.btnThem.TabIndex = 35;
             this.btnThem.Text = "Thêm";
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
@@ -161,9 +178,10 @@
             // 
             this.labelX1.BackColor = System.Drawing.Color.Transparent;
             this.labelX1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelX1.Location = new System.Drawing.Point(3, 14);
+            this.labelX1.Location = new System.Drawing.Point(4, 17);
+            this.labelX1.Margin = new System.Windows.Forms.Padding(4);
             this.labelX1.Name = "labelX1";
-            this.labelX1.Size = new System.Drawing.Size(94, 29);
+            this.labelX1.Size = new System.Drawing.Size(125, 36);
             this.labelX1.TabIndex = 8;
             this.labelX1.Text = "Tên hiệu xe";
             // 
@@ -174,21 +192,125 @@
             // 
             this.txtHieuXe.Border.Class = "TextBoxBorder";
             this.txtHieuXe.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtHieuXe.Location = new System.Drawing.Point(3, 54);
+            this.txtHieuXe.Location = new System.Drawing.Point(4, 66);
+            this.txtHieuXe.Margin = new System.Windows.Forms.Padding(4);
             this.txtHieuXe.Name = "txtHieuXe";
-            this.txtHieuXe.Size = new System.Drawing.Size(262, 24);
+            this.txtHieuXe.Size = new System.Drawing.Size(266, 28);
             this.txtHieuXe.TabIndex = 4;
+            this.txtHieuXe.TextChanged += new System.EventHandler(this.txtHieuXe_TextChanged);
             // 
             // labelX9
             // 
             this.labelX9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.labelX9.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelX9.Location = new System.Drawing.Point(169, 12);
+            this.labelX9.Location = new System.Drawing.Point(293, 30);
+            this.labelX9.Margin = new System.Windows.Forms.Padding(4);
             this.labelX9.Name = "labelX9";
-            this.labelX9.Size = new System.Drawing.Size(327, 47);
+            this.labelX9.Size = new System.Drawing.Size(503, 58);
             this.labelX9.TabIndex = 39;
-            this.labelX9.Text = "THÊM/XÓA HIỆU XE";
+            this.labelX9.Text = "THÊM/XÓA/SỬA HIỆU XE";
+            // 
+            // groupPanel3
+            // 
+            this.groupPanel3.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.groupPanel3.CanvasColor = System.Drawing.SystemColors.Control;
+            this.groupPanel3.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel3.Controls.Add(this.cboSuaHieuXe);
+            this.groupPanel3.Controls.Add(this.labelX4);
+            this.groupPanel3.Controls.Add(this.btnSua);
+            this.groupPanel3.Controls.Add(this.labelX3);
+            this.groupPanel3.Controls.Add(this.txtSuaHieuXe);
+            this.groupPanel3.Location = new System.Drawing.Point(692, 113);
+            this.groupPanel3.Margin = new System.Windows.Forms.Padding(4);
+            this.groupPanel3.Name = "groupPanel3";
+            this.groupPanel3.Size = new System.Drawing.Size(298, 213);
+            // 
+            // 
+            // 
+            this.groupPanel3.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.groupPanel3.Style.BackColorGradientAngle = 90;
+            this.groupPanel3.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.groupPanel3.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel3.Style.BorderBottomWidth = 1;
+            this.groupPanel3.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.groupPanel3.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel3.Style.BorderLeftWidth = 1;
+            this.groupPanel3.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel3.Style.BorderRightWidth = 1;
+            this.groupPanel3.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel3.Style.BorderTopWidth = 1;
+            this.groupPanel3.Style.CornerDiameter = 4;
+            this.groupPanel3.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.groupPanel3.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.groupPanel3.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.groupPanel3.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            this.groupPanel3.TabIndex = 41;
+            this.groupPanel3.Text = "Sửa hiệu xe";
+            this.groupPanel3.Click += new System.EventHandler(this.groupPanel3_Click);
+            // 
+            // cboSuaHieuXe
+            // 
+            this.cboSuaHieuXe.DisplayMember = "Text";
+            this.cboSuaHieuXe.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cboSuaHieuXe.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboSuaHieuXe.FormattingEnabled = true;
+            this.cboSuaHieuXe.ItemHeight = 18;
+            this.cboSuaHieuXe.Location = new System.Drawing.Point(2, 44);
+            this.cboSuaHieuXe.Margin = new System.Windows.Forms.Padding(4);
+            this.cboSuaHieuXe.Name = "cboSuaHieuXe";
+            this.cboSuaHieuXe.Size = new System.Drawing.Size(265, 24);
+            this.cboSuaHieuXe.TabIndex = 39;
+            // 
+            // labelX4
+            // 
+            this.labelX4.BackColor = System.Drawing.Color.Transparent;
+            this.labelX4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX4.Location = new System.Drawing.Point(2, 5);
+            this.labelX4.Margin = new System.Windows.Forms.Padding(4);
+            this.labelX4.Name = "labelX4";
+            this.labelX4.Size = new System.Drawing.Size(199, 36);
+            this.labelX4.TabIndex = 38;
+            this.labelX4.Text = "Chọn hiệu xe cần sửa";
+            this.labelX4.Click += new System.EventHandler(this.labelX4_Click);
+            // 
+            // btnSua
+            // 
+            this.btnSua.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnSua.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnSua.Image = global::QLGR.Properties.Resources.btnSua_Image;
+            this.btnSua.Location = new System.Drawing.Point(82, 135);
+            this.btnSua.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSua.Name = "btnSua";
+            this.btnSua.Size = new System.Drawing.Size(113, 32);
+            this.btnSua.TabIndex = 35;
+            this.btnSua.Text = "Sửa";
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
+            // 
+            // labelX3
+            // 
+            this.labelX3.BackColor = System.Drawing.Color.Transparent;
+            this.labelX3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX3.Location = new System.Drawing.Point(4, 68);
+            this.labelX3.Margin = new System.Windows.Forms.Padding(4);
+            this.labelX3.Name = "labelX3";
+            this.labelX3.Size = new System.Drawing.Size(233, 30);
+            this.labelX3.TabIndex = 8;
+            this.labelX3.Text = "Tên hiệu xe mới";
+            // 
+            // txtSuaHieuXe
+            // 
+            // 
+            // 
+            // 
+            this.txtSuaHieuXe.Border.Class = "TextBoxBorder";
+            this.txtSuaHieuXe.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSuaHieuXe.Location = new System.Drawing.Point(1, 99);
+            this.txtSuaHieuXe.Margin = new System.Windows.Forms.Padding(4);
+            this.txtSuaHieuXe.Name = "txtSuaHieuXe";
+            this.txtSuaHieuXe.Size = new System.Drawing.Size(266, 28);
+            this.txtSuaHieuXe.TabIndex = 4;
+            this.txtSuaHieuXe.TextChanged += new System.EventHandler(this.textBoxX1_TextChanged);
             // 
             // btnThoat
             // 
@@ -197,29 +319,33 @@
             this.btnThoat.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThoat.Image = ((System.Drawing.Image)(resources.GetObject("btnThoat.Image")));
-            this.btnThoat.Location = new System.Drawing.Point(263, 275);
+            this.btnThoat.Location = new System.Drawing.Point(429, 384);
+            this.btnThoat.Margin = new System.Windows.Forms.Padding(4);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(124, 36);
+            this.btnThoat.Size = new System.Drawing.Size(165, 44);
             this.btnThoat.TabIndex = 40;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // frmHieuXe
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(654, 430);
+            this.ClientSize = new System.Drawing.Size(1029, 529);
+            this.Controls.Add(this.groupPanel3);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.labelX9);
             this.Controls.Add(this.groupPanel2);
             this.Controls.Add(this.groupPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmHieuXe";
             this.Text = "frmHieuXe";
             this.Load += new System.EventHandler(this.frmHieuXe_Load);
             this.groupPanel1.ResumeLayout(false);
             this.groupPanel2.ResumeLayout(false);
+            this.groupPanel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -236,5 +362,11 @@
         private DevComponents.DotNetBar.ButtonX btnThem;
         private DevComponents.DotNetBar.LabelX labelX9;
         private DevComponents.DotNetBar.ButtonX btnThoat;
+        private DevComponents.DotNetBar.Controls.GroupPanel groupPanel3;
+        private DevComponents.DotNetBar.ButtonX btnSua;
+        private DevComponents.DotNetBar.LabelX labelX3;
+        private DevComponents.DotNetBar.Controls.TextBoxX txtSuaHieuXe;
+        private DevComponents.DotNetBar.Controls.ComboBoxEx cboSuaHieuXe;
+        private DevComponents.DotNetBar.LabelX labelX4;
     }
 }

@@ -32,5 +32,13 @@ namespace QLGR.BusinessLayer
             HieuXeDAL.XoaHieuXe(hieuXe);
             return true;
         }
+
+        public static bool SuaHieuXe(string hieuXe, string hieuXeMoi)
+        {
+            if (XeBLL.KiemTraHieuXe(hieuXe))
+                return false;
+            HieuXeDAL.SuaHieuXe(hieuXe, hieuXeMoi);
+            return true;
+        }
     }
 }

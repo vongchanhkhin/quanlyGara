@@ -389,3 +389,41 @@ D:\Studying\Nhập môn công nghệ phần mềm\đồ án ck\G8-GARAGE-Projiec
 D:\Studying\Nhập môn công nghệ phần mềm\đồ án ck\G8-GARAGE-Projiect-CS4273-main\QuanLyGara\QLGR\obj\Debug\QLGR.csproj.CopyComplete
 D:\Studying\Nhập môn công nghệ phần mềm\đồ án ck\G8-GARAGE-Projiect-CS4273-main\QuanLyGara\QLGR\obj\Debug\QLGR.exe
 D:\Studying\Nhập môn công nghệ phần mềm\đồ án ck\G8-GARAGE-Projiect-CS4273-main\QuanLyGara\QLGR\obj\Debug\QLGR.pdb
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\bin\Debug\QLGR.exe.config
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\bin\Debug\QLGR.exe
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\bin\Debug\QLGR.pdb
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.csproj.AssemblyReference.cache
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmBaoCaoDoanhSo.resources
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmBaoCaoVTPT.resources
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmDangNhap.resources
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmHieuXe.resources
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmInPhieuSuaChua.resources
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmInPhieuThuTien.resources
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmInPhieuTiepNhanXe.resources
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmLapPhieuSuaChua.resources
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmMain.resources
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmMuaPhuTung.resources
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmPhieuSuaChua.resources
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmPhieuThuTien.resources
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmPhuTung.resources
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmQuanLyNhanVien.resources
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmThayDoiMatKhau.resources
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmThayDoiQuyDinh.resources
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmThongTinPhanMem.resources
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmThongTinTaiKhoan.resources
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmTienCong.resources
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmTiepNhanXe.resources
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmTimKiem.resources
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmLapPhieuThuTien.resources
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.SplashScreen.resources
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.Properties.Resources.resources
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.csproj.GenerateResource.cache
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.csproj.CoreCompileInputs.cache
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.csproj.CopyComplete
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.exe
+C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.pdb
