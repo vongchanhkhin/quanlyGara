@@ -427,3 +427,42 @@ C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.csproj.Cor
 C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.csproj.CopyComplete
 C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.exe
 C:\Users\KhaRose\Documents\GitHub\quanlyGara\code\QLGR\obj\Debug\QLGR.pdb
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\bin\Debug\QLGR.exe.config
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\bin\Debug\QLGR.exe
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\bin\Debug\QLGR.pdb
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\bin\Debug\DevComponents.DotNetBar2.dll
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.csproj.AssemblyReference.cache
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.csproj.SuggestedBindingRedirects.cache
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmBaoCaoDoanhSo.resources
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmBaoCaoVTPT.resources
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmDangNhap.resources
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmHieuXe.resources
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmInPhieuSuaChua.resources
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmInPhieuThuTien.resources
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmInPhieuTiepNhanXe.resources
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmLapPhieuSuaChua.resources
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmMain.resources
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmMuaPhuTung.resources
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmPhieuSuaChua.resources
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmPhieuThuTien.resources
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmPhuTung.resources
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmQuanLyNhanVien.resources
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmThayDoiMatKhau.resources
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmThayDoiQuyDinh.resources
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmThongTinPhanMem.resources
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmThongTinTaiKhoan.resources
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmTienCong.resources
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmTiepNhanXe.resources
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmTimKiem.resources
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.frmLapPhieuThuTien.resources
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.Presentation.SplashScreen.resources
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.Properties.Resources.resources
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.csproj.GenerateResource.cache
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.csproj.CoreCompileInputs.cache
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.csproj.CopyComplete
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.exe
+D:\UIT_VNU\HK2 2022-2023\SoftwareIntro\Final Project\Gara_Project\quanlyGara_original\quanlyGara\code\QLGR\obj\Debug\QLGR.pdb
