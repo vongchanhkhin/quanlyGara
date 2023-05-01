@@ -21,6 +21,37 @@ namespace QLGR.Presentation
             labStatus.Visible = false;
         }
 
+        private void btnDangNhap_Click(object sender, EventArgs e)
+        {
+            DangNhap();
+        }
+
+        private void chkHienMatKhau_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkHienMatKhau.Checked)
+                txtMatKhau.PasswordChar = '\0';
+            else
+                txtMatKhau.PasswordChar = '*';
+        }
+
+        private void txtMatKhau_TextChanged(object sender, EventArgs e)
+        {
+            if (txtMatKhau.TextLength != 0)
+                labStatus.Visible = false;
+        }
+
+        private void txtMatKhau_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+                DangNhap();
+        }
+
+        private void txtTaiKhoan_TextChanged(object sender, EventArgs e)
+        {
+            if (txtTaiKhoan.TextLength != 0)
+                labStatus.Visible = false;
+        }
+
         void DangNhap()
         {
             if (!string.IsNullOrEmpty(txtTaiKhoan.Text) && !string.IsNullOrEmpty(txtMatKhau.Text))
@@ -42,37 +73,6 @@ namespace QLGR.Presentation
                     txtMatKhau.Clear();
                 }
             }
-        }
-
-        private void btnDangNhap_Click(object sender, EventArgs e)
-        {
-            DangNhap();
-        }
-
-        private void chkHienMatKhau_CheckedChanged(object sender, EventArgs e)
-        {
-            if (chkHienMatKhau.Checked)
-                txtMatKhau.PasswordChar = '\0';
-            else
-                txtMatKhau.PasswordChar = '•';
-        }
-
-        private void txtMatKhau_TextChanged(object sender, EventArgs e)
-        {
-            if (txtMatKhau.TextLength != 0)
-                labStatus.Visible = false;
-        }
-
-        private void txtMatKhau_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-                DangNhap();
-        }
-
-        private void txtTaiKhoan_TextChanged(object sender, EventArgs e)
-        {
-            if (txtTaiKhoan.TextLength != 0)
-                labStatus.Visible = false;
         }
     }
 }
