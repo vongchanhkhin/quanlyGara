@@ -26,8 +26,8 @@ namespace QLGR.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=ESON-PC;Initial Catalog=QLGR;Persist Security Info=True;User ID=giang" +
-            "namnam;Password=12345")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.;Initial Catalog=QLGR;Integrated Security=True;MultipleActiveResultS" +
+            "ets=True")]
         public string QLGRCon {
             get {
                 return ((string)(this["QLGRCon"]));

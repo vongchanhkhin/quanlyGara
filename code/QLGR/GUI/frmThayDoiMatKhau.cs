@@ -68,5 +68,55 @@ namespace QLGR.Presentation
                 }
             }
         }
+
+        private void labelX4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelX2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMatKhauHienThoi_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelX1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelX3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNhapLaiMKMoi_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMatKhauMoi_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelX15_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelX5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelX6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

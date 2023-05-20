@@ -74,5 +74,15 @@ namespace QLGR.Presentation
                 }
             }
         }
+
+        private void labStatus_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelX3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
