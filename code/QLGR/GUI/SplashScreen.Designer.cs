@@ -38,7 +38,7 @@
             // 
             // labelX1
             // 
-            this.labelX1.BackColor = System.Drawing.Color.Transparent;
+            this.labelX1.BackColor = System.Drawing.Color.DimGray;
             this.labelX1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelX1.ForeColor = System.Drawing.Color.White;
             this.labelX1.Location = new System.Drawing.Point(178, 464);
@@ -51,7 +51,7 @@
             // 
             // labelX4
             // 
-            this.labelX4.BackColor = System.Drawing.Color.Transparent;
+            this.labelX4.BackColor = System.Drawing.Color.DimGray;
             this.labelX4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelX4.ForeColor = System.Drawing.Color.White;
             this.labelX4.Location = new System.Drawing.Point(850, 554);
