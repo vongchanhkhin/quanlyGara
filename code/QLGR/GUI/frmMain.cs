@@ -244,6 +244,7 @@ namespace QLGR.Presentation
         {
             frmThayDoiMatKhau _frmThayDoiMatKhau = new frmThayDoiMatKhau();
             _frmThayDoiMatKhau.ShowDialog();
+            DangXuat();
         }
         private void btnDangXuat_Click(object sender, EventArgs e)
         {
