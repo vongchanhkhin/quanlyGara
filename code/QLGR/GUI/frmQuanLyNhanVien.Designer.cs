@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmQuanLyNhanVien));
             this.dgvDanhSachTaiKhoan = new DevComponents.DotNetBar.Controls.DataGridViewX();
             this.panelEx1 = new DevComponents.DotNetBar.PanelEx();
@@ -87,14 +87,14 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.dgvDanhSachTaiKhoan.BackgroundColor = System.Drawing.SystemColors.Window;
             this.dgvDanhSachTaiKhoan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvDanhSachTaiKhoan.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvDanhSachTaiKhoan.DefaultCellStyle = dataGridViewCellStyle2;
             this.dgvDanhSachTaiKhoan.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
             this.dgvDanhSachTaiKhoan.Location = new System.Drawing.Point(18, 118);
             this.dgvDanhSachTaiKhoan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -342,6 +342,7 @@
             this.txtMatKhauNhapLai.Location = new System.Drawing.Point(226, 98);
             this.txtMatKhauNhapLai.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtMatKhauNhapLai.Name = "txtMatKhauNhapLai";
+            this.txtMatKhauNhapLai.PasswordChar = '*';
             this.txtMatKhauNhapLai.Size = new System.Drawing.Size(366, 32);
             this.txtMatKhauNhapLai.TabIndex = 2;
             // 
@@ -355,6 +356,7 @@
             this.txtMatKhau.Location = new System.Drawing.Point(226, 54);
             this.txtMatKhau.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtMatKhau.Name = "txtMatKhau";
+            this.txtMatKhau.PasswordChar = '*';
             this.txtMatKhau.Size = new System.Drawing.Size(366, 32);
             this.txtMatKhau.TabIndex = 1;
             // 

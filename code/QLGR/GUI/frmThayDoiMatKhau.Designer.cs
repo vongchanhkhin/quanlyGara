@@ -114,6 +114,7 @@
             this.btnLuu.Size = new System.Drawing.Size(135, 54);
             this.btnLuu.TabIndex = 15;
             this.btnLuu.Text = "Lưu thay đổi";
+            this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
             // 
             // txtMatKhauMoi
             // 
