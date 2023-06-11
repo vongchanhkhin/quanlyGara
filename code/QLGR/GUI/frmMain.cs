@@ -279,5 +279,15 @@ namespace QLGR.Presentation
         {
 
         }
+
+        private void ribbonControl1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bar1_ItemClick(object sender, EventArgs e)
+        {
+
+        }
     }
 }

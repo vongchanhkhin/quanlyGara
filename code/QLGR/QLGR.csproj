@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>QLGR</RootNamespace>
     <AssemblyName>QLGR</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -269,6 +269,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.cs" />
     <Compile Include="Utility\ControlFormat.cs" />
     <EmbeddedResource Include="Bill_Report\PhieuSuaChua.rdlc" />
     <EmbeddedResource Include="Bill_Report\PhieuThuTien.rdlc" />

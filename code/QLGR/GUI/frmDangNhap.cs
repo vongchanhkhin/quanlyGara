@@ -60,7 +60,7 @@ namespace QLGR.Presentation
                 {
                     frmThongTinTaiKhoan.tenDangNhap = txtTaiKhoan.Text;
                     frmThongTinTaiKhoan.matKhau = txtMatKhau.Text;
-                    frmThayDoiMatKhau.taiKhoan = txtTaiKhoan.Text;
+                    frmThayDoiMatKhau.tenTK = txtTaiKhoan.Text;
                     frmMain formMain = new frmMain();
                     frmMain.quyen = DangNhapBLL.XemDL("QUYEN", txtTaiKhoan.Text, txtMatKhau.Text).Rows[0][0].ToString();
                     this.Hide();
@@ -73,6 +73,16 @@ namespace QLGR.Presentation
                     txtMatKhau.Clear();
                 }
             }
+        }
+
+        private void labStatus_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelX3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -124,40 +124,42 @@ namespace QLGR.Presentation
             if (string.Equals(txtMatKhau.Text, txtMatKhauNhapLai.Text)&&!string.IsNullOrEmpty(txtTenTaiKhoan.Text)&&!string.IsNullOrEmpty(txtMatKhau.Text))
             {
                 if (txtMatKhau.Text.Length >= 4 && txtMatKhau.Text.Length <= 20)
-                    if (txtTenTaiKhoan.Text.Length == 0 || txtTenTaiKhoan.Text.Length > 20)
-                        try
+                    if (txtTenTaiKhoan.Text.Length > 0 && txtTenTaiKhoan.Text.Length <= 20)
                         {
-                            string quyen = "";
-                            if (rdoGiamDoc_them.Checked)
-                                quyen = "GIAMDOC";
-                            else if (rdoNhanVien_Them.Checked)
-                                quyen = "NHANVIEN";
-                            else if (rdoQuanLy_Them.Checked)
-                                quyen = "QUANLI";
-                            TaiKhoan taiKhoan = new TaiKhoan();
-                            taiKhoan.DiaChi = txtDiaChi_them.Text;
-                            taiKhoan.Email = txtEmail_them.Text;
-                            taiKhoan.HoTen = txtHoTen_them.Text;
-                            taiKhoan.MatKhau = txtMatKhau.Text;
-                            taiKhoan.Quyen = quyen;
-                            taiKhoan.SDT = txtSDT_them.Text;
-                            taiKhoan.TenDangNhap = txtTenTaiKhoan.Text;
+                            try
+                            {
+                                string quyen = "";
+                                if (rdoGiamDoc_them.Checked)
+                                    quyen = "GIAMDOC";
+                                else if (rdoNhanVien_Them.Checked)
+                                    quyen = "NHANVIEN";
+                                else if (rdoQuanLy_Them.Checked)
+                                    quyen = "QUANLI";
+                                TaiKhoan taiKhoan = new TaiKhoan();
+                                taiKhoan.DiaChi = txtDiaChi_them.Text;
+                                taiKhoan.Email = txtEmail_them.Text;
+                                taiKhoan.HoTen = txtHoTen_them.Text;
+                                taiKhoan.MatKhau = txtMatKhau.Text;
+                                taiKhoan.Quyen = quyen;
+                                taiKhoan.SDT = txtSDT_them.Text;
+                                taiKhoan.TenDangNhap = txtTenTaiKhoan.Text;
 
-                            TaiKhoanBLL.ThemTaiKhoan(taiKhoan);
-                            MessageBox.Show("Thêm tài khoản thành công");
-                            txtDiaChi_them.Clear();
-                            txtEmail_them.Clear();
-                            txtHoTen_them.Clear();
-                            txtMatKhau.Clear();
-                            txtMatKhauNhapLai.Clear();
-                            txtSDT_them.Clear();
-                            txtTenTaiKhoan.Clear();
-                            LoadDataGridView();
-                        }
-                        catch
-                        {
-                            MessageBox.Show("Vui lòng điền đầy đủ tên đăng nhập và mật khẩu", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        }
+                                TaiKhoanBLL.ThemTaiKhoan(taiKhoan);
+                                MessageBox.Show("Thêm tài khoản thành công");
+                                txtDiaChi_them.Clear();
+                                txtEmail_them.Clear();
+                                txtHoTen_them.Clear();
+                                txtMatKhau.Clear();
+                                txtMatKhauNhapLai.Clear();
+                                txtSDT_them.Clear();
+                                txtTenTaiKhoan.Clear();
+                                LoadDataGridView();
+                            }
+                            catch
+                            {
+                                MessageBox.Show("Vui lòng điền đầy đủ tên đăng nhập và mật khẩu", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            }   
+                        }                    
                     else
                         MessageBox.Show("Tên tài khoản phải nhỏ hơn 20 kí tự", "Thông báo", MessageBoxButtons.OK);
                 else
