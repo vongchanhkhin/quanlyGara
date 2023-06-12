@@ -31,6 +31,7 @@ namespace QLGR.Presentation
                             txtMatKhauHienThoi.Clear();
                             txtMatKhauMoi.Clear();
                             txtNhapLaiMKMoi.Clear();
+                            DangXuat();
                         }
                         catch {; }
                     }
@@ -62,17 +63,26 @@ namespace QLGR.Presentation
 
         void DangXuat()
         {
-            Form frmMain = new Form();
-            foreach (Form frm in allForm)
+            //this.Hide();
+            //Form frmMain = new Form();
+            //foreach (Form frm in allForm)
+            //{
+            //    if (frm.Name == "frmMain")
+            //    {
+            //        //this.Hide();
+            //        frm.Hide();
+            //        new frmDangNhap().Show();
+            //        frm.Close();
+            //    }
+            //}
+            Form frmMain = Application.OpenForms["frmMain"];
+            if (frmMain != null)
             {
-                if (frm.Name == "frmMain")
-                {
-                    frmMain.Hide();
-                    new frmDangNhap().Show();
-                    frmMain.Close();
-                    return;
-                }
+                frmMain.Close();
             }
+            this.Hide();
+            new frmDangNhap().ShowDialog();
+            this.Close();
         }
 
         private void labelX4_Click(object sender, EventArgs e)

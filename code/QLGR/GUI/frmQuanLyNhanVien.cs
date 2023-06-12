@@ -3,6 +3,7 @@ using System.Windows.Forms;
 using System;
 using QLGR.Entities;
 using DevComponents.DotNetBar;
+using System.Data;
 
 namespace QLGR.Presentation
 {
@@ -69,13 +70,38 @@ namespace QLGR.Presentation
 
         void LoadDataGridView()
         {
-            dgvDanhSachTaiKhoan.DataSource = TaiKhoanBLL.GetTaiKhoan();
-            string[] columns = { "TENDANGNHAP", "HOTEN", "SDT"};
+            DataTable taiKhoanTable = TaiKhoanBLL.GetTaiKhoan();
+            if (frmMain.quyen.Trim() == "QUANLI")
+            {
+                DataRow[] rows = taiKhoanTable.Select("QUYEN = 'NHANVIEN'");
+                DataTable filteredTable = taiKhoanTable.Clone();
+                foreach (DataRow row in rows)
+                {
+                    filteredTable.ImportRow(row);
+                }
+                dgvDanhSachTaiKhoan.DataSource = filteredTable;
+
+            }
+            else if(frmMain.quyen.Trim() == "GIAMDOC")
+            {
+                DataRow[] rows = taiKhoanTable.Select("QUYEN = 'NHANVIEN' OR QUYEN = 'QUANLI'");
+                DataTable filteredTable = taiKhoanTable.Clone();
+                foreach (DataRow row in rows)
+                {
+                    filteredTable.ImportRow(row);
+                }
+                dgvDanhSachTaiKhoan.DataSource = filteredTable;
+            }
+
+
+            //dgvDanhSachTaiKhoan.DataSource = TaiKhoanBLL.GetTaiKhoan();
+            string[] columns = { "TENDANGNHAP", "HOTEN", "QUYEN", "SDT" };
             Utility.ControlFormat.DataGridViewFormat(dgvDanhSachTaiKhoan, columns);
 
             dgvDanhSachTaiKhoan.Columns[0].HeaderText = "Tài khoản";
-            dgvDanhSachTaiKhoan.Columns[1].HeaderText = "Họ tên";
-            dgvDanhSachTaiKhoan.Columns[2].HeaderText = "SĐT";
+            dgvDanhSachTaiKhoan.Columns[2].HeaderText = "Chức vụ";
+            dgvDanhSachTaiKhoan.Columns[3].HeaderText = "Họ và tên";
+            dgvDanhSachTaiKhoan.Columns[4].HeaderText = "SĐT";
         }
 
         private void dgvDanhSachTaiKhoan_CellClick(object sender, DataGridViewCellEventArgs e)
