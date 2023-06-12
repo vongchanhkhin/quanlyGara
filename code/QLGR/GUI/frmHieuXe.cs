@@ -15,7 +15,7 @@ namespace QLGR.Presentation
     {
         DevComponents.DotNetBar.TabControl tabControl;
         TabItem tab;
-
+        private bool isComboBoxInitialized = false;
         public frmHieuXe(DevComponents.DotNetBar.TabControl _tabControl, TabItem _tab)
         {
             InitializeComponent();
@@ -49,7 +49,13 @@ namespace QLGR.Presentation
             try
             {
                 if (HieuXeBLL.ThemHieuXe(txtHieuXe.Text))
+                {
                     MessageBox.Show("Thêm hiệu xe thành công.", "Thông báo", MessageBoxButtons.OK);
+                    isComboBoxInitialized = false;
+                    txtHieuXe.Clear();
+                    GetListHieuXe();
+                    GetListSuaHieuXe();
+                }
                 else
                     MessageBox.Show("Hiệu xe đã tồn tại.", "Thông báo", MessageBoxButtons.OK);
             }
@@ -64,7 +70,12 @@ namespace QLGR.Presentation
             try
             {
                 if (HieuXeBLL.XoaHieuXe(cboHieuXe.Text))
+                {
                     MessageBox.Show("Xe đã xóa thành công", "Thông báo", MessageBoxButtons.OK);
+                    isComboBoxInitialized = false;
+                    GetListHieuXe();
+                    GetListSuaHieuXe();
+                }
                 else
                     MessageBox.Show("Không thể xóa hiệu xe vì có xe thuộc hiệu xe này trong xưởng", "Thông báo");
             }
@@ -107,7 +118,7 @@ namespace QLGR.Presentation
 
         private void cboHieuXe_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void labelX2_Click(object sender, EventArgs e)
@@ -120,7 +131,13 @@ namespace QLGR.Presentation
             try
             {
                 if (HieuXeBLL.SuaHieuXe(cboSuaHieuXe.Text, txtSuaHieuXe.Text))
+                {
                     MessageBox.Show("Hiệu xe cập nhật thành công", "Thông báo", MessageBoxButtons.OK);
+                    isComboBoxInitialized = false;
+                    txtSuaHieuXe.Clear();
+                    GetListHieuXe();
+                    GetListSuaHieuXe();
+                }
                 else
                     MessageBox.Show("Không thể cập nhật hiệu xe vì không có hiệu xe này trong xưởng", "Thông báo");
             }
@@ -133,6 +150,22 @@ namespace QLGR.Presentation
         private void labelX4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void cboSuaHieuXe_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cboSuaHieuXe.SelectedItem != null && isComboBoxInitialized)
+            {
+                if (cboSuaHieuXe.SelectedItem is DataRowView selectedRow)
+                {
+                    txtSuaHieuXe.Text = selectedRow["HIEUXE"].ToString();
+                }
+            }
+        }
+
+        private void cboSuaHieuXe_DropDown(object sender, EventArgs e)
+        {
+            isComboBoxInitialized = true;
         }
     }
 }
