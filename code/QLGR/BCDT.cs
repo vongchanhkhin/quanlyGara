@@ -4,6 +4,9 @@
 
     partial class BCDT
     {
+        partial class VW_BCDTDataTable
+        {
+        }
     }
 }
 

@@ -114,6 +114,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DSPhieuSuaChua.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DSPhieuThuTien.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSPhieuThuTien.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Entities\BaoCaoDoanhThu.cs" />
     <Compile Include="Entities\BaoCaoTon.cs" />
     <Compile Include="Entities\ChiTietBaoCaoDoanhThu.cs" />
@@ -388,6 +393,17 @@
     </None>
     <None Include="DSPhieuSuaChua.xss">
       <DependentUpon>DSPhieuSuaChua.xsd</DependentUpon>
+    </None>
+    <None Include="DSPhieuThuTien.xsc">
+      <DependentUpon>DSPhieuThuTien.xsd</DependentUpon>
+    </None>
+    <None Include="DSPhieuThuTien.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSPhieuThuTien.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DSPhieuThuTien.xss">
+      <DependentUpon>DSPhieuThuTien.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

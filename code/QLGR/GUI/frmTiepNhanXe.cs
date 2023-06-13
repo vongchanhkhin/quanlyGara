@@ -25,7 +25,7 @@ namespace QLGR.Presentation
 
         private void frmTiepNhanXe_Load(object sender, EventArgs e)
         {
-            btnInPhieu.Enabled = false;
+            //btnInPhieu.Enabled = false;
 
             GetDataGridView();
             labNgayNhap.Text = String.Format("{0:dd/MM/yyyy}", DateTime.Now);

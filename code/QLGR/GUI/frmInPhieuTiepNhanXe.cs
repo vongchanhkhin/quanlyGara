@@ -7,7 +7,7 @@ namespace QLGR.Presentation
     public partial class frmInPhieuTiepNhanXe : Form
     {
         private Xe xe = new Xe();
-        string ngayTiepNhan = DateTime.Now.ToString("d/M/yyyy h:mm tt");
+        string ngayTiepNhan = DateTime.Now.ToString("d/M/yyyy");
 
         public frmInPhieuTiepNhanXe()
         {
