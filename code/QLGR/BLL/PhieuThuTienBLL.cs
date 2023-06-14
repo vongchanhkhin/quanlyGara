@@ -47,12 +47,12 @@ namespace QLGR.BusinessLayer
             string id = PhieuThuTienDAL.GetLastID().Trim();
             if (id == "")
             {
-                return "G20_PTT_000001";
+                return "G10_PTT_000001";
             }
-            int nextID = int.Parse(id.Remove(0, "G20_PTT_".Length)) + 1;
+            int nextID = int.Parse(id.Remove(0, "G10_PTT_".Length)) + 1;
             id = "00000" + nextID.ToString();
             id = id.Substring(id.Length - 6, 6);
-            return "G20_PTT_" + id;
+            return "G10_PTT_" + id;
         }
 
         public static DataTable GetListPTT(string bienSo)

@@ -30,12 +30,12 @@ namespace QLGR.BusinessLayer
             string id = ChiTietBaoCaoDoanhThuDAL.GetLastID().Trim();
             if (id == "")
             {
-                return "G20_CTBC_00001";
+                return "G10_CTBC_00001";
             }
-            int nextID = int.Parse(id.Remove(0, "G20_CTBC_".Length)) + 1;
+            int nextID = int.Parse(id.Remove(0, "G10_CTBC_".Length)) + 1;
             id = "0000" + nextID.ToString();
             id = id.Substring(id.Length - 5, 5);
-            return "G20_CTBC_" + id;
+            return "G10_CTBC_" + id;
         }
 
         public static void CapNhatBaoCao(ChiTietBaoCaoDoanhThu chiTiet, decimal soTien)

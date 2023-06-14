@@ -43,12 +43,12 @@ namespace QLGR.BusinessLayer
             string id = PhuTungDAL.GetLastID().Trim();
             if (id == "")
             {
-                return "G20_PT_001";
+                return "G10_PT_001";
             }
-            int nextID = int.Parse(id.Remove(0, "G20_PT_".Length)) + 1;
+            int nextID = int.Parse(id.Remove(0, "G10_PT_".Length)) + 1;
             id = "00" + nextID.ToString();
             id = id.Substring(id.Length - 3, 3);
-            return "G20_PT_" + id;
+            return "G10_PT_" + id;
         }
 
         public static void ThemPhuTung(PhuTung phuTung)

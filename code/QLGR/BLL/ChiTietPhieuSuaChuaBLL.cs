@@ -28,12 +28,12 @@ namespace QLGR.BusinessLayer
             string id = ChiTietPhieuSuaChuaDAL.GetLastID().Trim();
             if (id == "")
             {
-                return "G20_CTPSC_000001";
+                return "G10_CTPSC_000001";
             }
-            int nextID = int.Parse(id.Remove(0, "G20_CTPSC_".Length)) + 1;
+            int nextID = int.Parse(id.Remove(0, "G10_CTPSC_".Length)) + 1;
             id = "00000" + nextID.ToString();
             id = id.Substring(id.Length - 6, 6);
-            return "G20_CTPSC_" + id;
+            return "G10_CTPSC_" + id;
         }
 
         public static bool KiemTraTienCong(string noiDung)

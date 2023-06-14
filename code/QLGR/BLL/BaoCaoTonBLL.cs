@@ -38,12 +38,12 @@ namespace QLGR.BusinessLayer
             string id = BaoCaoTonDAL.GetLastID().Trim();
             if (id == "")
             {
-                return "G20_BCT_00001";
+                return "G10_BCT_00001";
             }
-            int nextID = int.Parse(id.Remove(0, "G20_BCT_".Length)) + 1;
+            int nextID = int.Parse(id.Remove(0, "G10_BCT_".Length)) + 1;
             id = "0000" + nextID.ToString();
             id = id.Substring(id.Length - 5, 5);
-            return "G20_BCT_" + id;
+            return "G10_BCT_" + id;
         }
     }
 }

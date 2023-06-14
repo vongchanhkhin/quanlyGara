@@ -62,12 +62,12 @@ namespace QLGR.BusinessLayer
             string id = PhieuSuaChuaDAL.GetLastID().Trim();
             if (id == "")
             {
-                return "G20_PSC_00001";
+                return "G10_PSC_00001";
             }
-            int nextID = int.Parse(id.Remove(0, "G20_PSC_".Length)) + 1;
+            int nextID = int.Parse(id.Remove(0, "G10_PSC_".Length)) + 1;
             id = "0000" + nextID.ToString();
             id = id.Substring(id.Length - 5, 5);
-            return "G20_PSC_" + id;
+            return "G10_PSC_" + id;
         }
 
         public static DataTable GetListPSC(string bienSo)
