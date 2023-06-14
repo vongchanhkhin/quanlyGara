@@ -78,7 +78,6 @@ namespace QLGR.DataLayer
 
             cmd.Parameters.AddWithValue("@SL", chiTiet.TonCuoi);
             cmd.Parameters.AddWithValue("@MACTBCT", chiTiet.MaCTBCT);
-
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             db.dt = new DataTable();
             da.Fill(db.dt);

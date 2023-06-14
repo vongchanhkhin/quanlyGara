@@ -125,9 +125,10 @@ namespace QLGR.Presentation
             chitiet.MaCTBCT = maCTBCT;
             chitiet.TenPT = cboPhuTung.Text;
             chitiet.TonCuoi = int.Parse(txtSL.Text);
-            chitiet.PhatSinh = 0;
+            chitiet.PhatSinh = -(int.Parse(txtSL.Text));
             chitiet.TonDau = 0;
             ChiTietBaoCaoTonBLL.capNhatTonCuoi(chitiet);
+            ChiTietBaoCaoTonBLL.capNhatPhatSinh(chitiet);
 
             decimal thanhTien = decimal.Parse(txtThanhTien.Text);
             txtTongTien.Text = string.Format("{0:0,0}", decimal.Parse(tongTien.ToString()));
