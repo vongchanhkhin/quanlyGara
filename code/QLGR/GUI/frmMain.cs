@@ -271,7 +271,10 @@ namespace QLGR.Presentation
 
         private void btnHuongDanSD_Click(object sender, EventArgs e)
         {
-            string path = System.IO.Directory.GetCurrentDirectory() + @"\HDSD.doc";
+            string currentDirectory = System.IO.Directory.GetCurrentDirectory(); // Lấy đường dẫn thư mục hiện tại
+            string parentDirectory = System.IO.Directory.GetParent(currentDirectory).FullName; // Lấy đường dẫn thư mục cha
+            string grandparentDirectory = System.IO.Directory.GetParent(parentDirectory).FullName; // Lấy đường dẫn thư mục cha
+            string path = grandparentDirectory + @"\HDSD.doc";
             System.Diagnostics.Process.Start(path);
         }
 
