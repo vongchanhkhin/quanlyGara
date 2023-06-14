@@ -42,10 +42,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(16, 21);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Location = new System.Drawing.Point(18, 26);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(140, 185);
+            this.pictureBox1.Size = new System.Drawing.Size(158, 231);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -53,30 +53,31 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(16, 222);
+            this.label1.Location = new System.Drawing.Point(52, 278);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(448, 16);
+            this.label1.Size = new System.Drawing.Size(657, 20);
             this.label1.TabIndex = 1;
-            this.label1.Text = "_______________________________________________________________";
+            this.label1.Text = "________________________________________________________________________";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // labelX4
             // 
             this.labelX4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelX4.Location = new System.Drawing.Point(171, 21);
-            this.labelX4.Margin = new System.Windows.Forms.Padding(4);
+            this.labelX4.Location = new System.Drawing.Point(192, 26);
+            this.labelX4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.labelX4.Name = "labelX4";
-            this.labelX4.Size = new System.Drawing.Size(345, 28);
+            this.labelX4.Size = new System.Drawing.Size(388, 35);
             this.labelX4.TabIndex = 5;
             this.labelX4.Text = "PHẦN MỀM QUẢN LÝ GARA ÔTÔ";
             // 
             // labelX1
             // 
             this.labelX1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelX1.Location = new System.Drawing.Point(171, 57);
-            this.labelX1.Margin = new System.Windows.Forms.Padding(4);
+            this.labelX1.Location = new System.Drawing.Point(192, 71);
+            this.labelX1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.labelX1.Name = "labelX1";
-            this.labelX1.Size = new System.Drawing.Size(171, 28);
+            this.labelX1.Size = new System.Drawing.Size(192, 35);
             this.labelX1.TabIndex = 5;
             this.labelX1.Text = "Version:          3.1";
             this.labelX1.Click += new System.EventHandler(this.labelX1_Click);
@@ -84,22 +85,23 @@
             // labelX2
             // 
             this.labelX2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelX2.Location = new System.Drawing.Point(171, 87);
-            this.labelX2.Margin = new System.Windows.Forms.Padding(4);
+            this.labelX2.Location = new System.Drawing.Point(192, 109);
+            this.labelX2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.labelX2.Name = "labelX2";
-            this.labelX2.Size = new System.Drawing.Size(345, 28);
+            this.labelX2.Size = new System.Drawing.Size(388, 35);
             this.labelX2.TabIndex = 5;
-            this.labelX2.Text = "Ngày phát hành:  12/6/2023";
+            this.labelX2.Text = "Ngày phát hành:          12/6/2023";
             // 
             // labelX3
             // 
             this.labelX3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelX3.Location = new System.Drawing.Point(171, 118);
-            this.labelX3.Margin = new System.Windows.Forms.Padding(4);
+            this.labelX3.Location = new System.Drawing.Point(192, 148);
+            this.labelX3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.labelX3.Name = "labelX3";
-            this.labelX3.Size = new System.Drawing.Size(482, 28);
+            this.labelX3.Size = new System.Drawing.Size(542, 35);
             this.labelX3.TabIndex = 5;
-            this.labelX3.Text = "Liên hệ:         SoftTechIntro_UIT_Group9@gmail.com";
+            this.labelX3.Text = "Liên hệ:          UIT_SoftTechIntro_Group10@gmail.com";
+            this.labelX3.Click += new System.EventHandler(this.labelX3_Click);
             // 
             // btnDong
             // 
@@ -107,20 +109,20 @@
             this.btnDong.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnDong.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDong.Image = ((System.Drawing.Image)(resources.GetObject("btnDong.Image")));
-            this.btnDong.Location = new System.Drawing.Point(213, 261);
-            this.btnDong.Margin = new System.Windows.Forms.Padding(4);
+            this.btnDong.Location = new System.Drawing.Point(334, 329);
+            this.btnDong.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnDong.Name = "btnDong";
-            this.btnDong.Size = new System.Drawing.Size(105, 44);
+            this.btnDong.Size = new System.Drawing.Size(118, 55);
             this.btnDong.TabIndex = 6;
             this.btnDong.Text = "Đóng";
             this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
             // 
             // frmThongTinPhanMem
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(671, 330);
+            this.ClientSize = new System.Drawing.Size(755, 412);
             this.Controls.Add(this.btnDong);
             this.Controls.Add(this.labelX3);
             this.Controls.Add(this.labelX2);
@@ -130,7 +132,7 @@
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MinimizeBox = false;
             this.Name = "frmThongTinPhanMem";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

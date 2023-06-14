@@ -32,5 +32,10 @@ namespace QLGR.Presentation
         {
 
         }
+
+        private void labelX3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
