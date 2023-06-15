@@ -42,8 +42,8 @@ namespace QLGR.Presentation
             rdoNhanVien_Them.Checked = true;
             if (frmMain.quyen.Trim()=="QUANLI")
             {
-                rdoGiamDoc.Enabled = false;
-                rdoGiamDoc_them.Enabled = false;
+                //rdoGiamDoc.Enabled = false;
+                //rdoGiamDoc_them.Enabled = false;
                 rdoQuanLy.Enabled = false;
                 rdoQuanLy_Them.Enabled = false;
                 rdoNhanVien.Enabled = false;
@@ -52,7 +52,7 @@ namespace QLGR.Presentation
 
         void HienThiPhanQuyen(string quyen)
         {
-            if(frmMain.quyen.Trim()=="QUANLI"&& (quyen.Trim()=="GIAMDOC"||quyen.Trim()=="QUANLI"))
+            if(frmMain.quyen.Trim()=="QUANLI"&& quyen.Trim()=="QUANLI")
             {
                 txtDiaChi.Enabled = false;
                 txtEmail.Enabled = false;
@@ -122,8 +122,8 @@ namespace QLGR.Presentation
                         rdoNhanVien.Checked = true;
                     else if (chucVu.Trim() == "QUANLI")
                         rdoQuanLy.Checked = true;
-                    else
-                        rdoGiamDoc.Checked = true;
+                    //else
+                    //    rdoGiamDoc.Checked = true;
 
                     HienThiPhanQuyen(chucVu);
                 }
@@ -155,9 +155,9 @@ namespace QLGR.Presentation
                             try
                             {
                                 string quyen = "";
-                                if (rdoGiamDoc_them.Checked)
-                                    quyen = "GIAMDOC";
-                                else if (rdoNhanVien_Them.Checked)
+                                //if (rdoGiamDoc_them.Checked)
+                                //    quyen = "GIAMDOC";
+                                if (rdoNhanVien_Them.Checked)
                                     quyen = "NHANVIEN";
                                 else if (rdoQuanLy_Them.Checked)
                                     quyen = "QUANLI";
@@ -216,12 +216,19 @@ namespace QLGR.Presentation
                     }
                 }
 
+                string quyen = "";
+                if (rdoNhanVien.Checked)
+                    quyen = "NHANVIEN";
+                else if (rdoQuanLy.Checked)
+                    quyen = "QUANLI";
                 TaiKhoan taiKhoan = new TaiKhoan();
                 taiKhoan.DiaChi = txtDiaChi.Text;
                 taiKhoan.Email = txtEmail.Text;
                 taiKhoan.HoTen = txtHoTen.Text;
                 taiKhoan.SDT = txtSDT.Text;
                 taiKhoan.TenDangNhap = tenDangNhap;
+                taiKhoan.Quyen = quyen;
+                
 
                 TaiKhoanBLL.CapNhatTaiKhoanNhanVien(taiKhoan);
                 MessageBox.Show("Thay đổi thông tin tài khoản nhân viên thành công!", "Thông báo");

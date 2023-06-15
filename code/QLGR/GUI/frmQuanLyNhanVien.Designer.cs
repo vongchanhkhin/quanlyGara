@@ -42,7 +42,6 @@
             this.labelX12 = new DevComponents.DotNetBar.LabelX();
             this.labelX13 = new DevComponents.DotNetBar.LabelX();
             this.btnThem = new DevComponents.DotNetBar.ButtonX();
-            this.rdoGiamDoc_them = new System.Windows.Forms.RadioButton();
             this.rdoQuanLy_Them = new System.Windows.Forms.RadioButton();
             this.rdoNhanVien_Them = new System.Windows.Forms.RadioButton();
             this.txtMatKhauNhapLai = new DevComponents.DotNetBar.Controls.TextBoxX();
@@ -59,7 +58,6 @@
             this.groupPanel1 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.btnXoaTaiKhoan = new DevComponents.DotNetBar.ButtonX();
             this.btnLuu = new DevComponents.DotNetBar.ButtonX();
-            this.rdoGiamDoc = new System.Windows.Forms.RadioButton();
             this.rdoQuanLy = new System.Windows.Forms.RadioButton();
             this.rdoNhanVien = new System.Windows.Forms.RadioButton();
             this.txtEmail = new DevComponents.DotNetBar.Controls.TextBoxX();
@@ -141,7 +139,6 @@
             this.groupPanel2.Controls.Add(this.labelX12);
             this.groupPanel2.Controls.Add(this.labelX13);
             this.groupPanel2.Controls.Add(this.btnThem);
-            this.groupPanel2.Controls.Add(this.rdoGiamDoc_them);
             this.groupPanel2.Controls.Add(this.rdoQuanLy_Them);
             this.groupPanel2.Controls.Add(this.rdoNhanVien_Them);
             this.groupPanel2.Controls.Add(this.txtMatKhauNhapLai);
@@ -296,22 +293,10 @@
             this.btnThem.Text = "Thêm";
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
-            // rdoGiamDoc_them
-            // 
-            this.rdoGiamDoc_them.AutoSize = true;
-            this.rdoGiamDoc_them.Location = new System.Drawing.Point(464, 320);
-            this.rdoGiamDoc_them.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.rdoGiamDoc_them.Name = "rdoGiamDoc_them";
-            this.rdoGiamDoc_them.Size = new System.Drawing.Size(102, 24);
-            this.rdoGiamDoc_them.TabIndex = 9;
-            this.rdoGiamDoc_them.TabStop = true;
-            this.rdoGiamDoc_them.Text = "Giám đốc";
-            this.rdoGiamDoc_them.UseVisualStyleBackColor = true;
-            // 
             // rdoQuanLy_Them
             // 
             this.rdoQuanLy_Them.AutoSize = true;
-            this.rdoQuanLy_Them.Location = new System.Drawing.Point(363, 320);
+            this.rdoQuanLy_Them.Location = new System.Drawing.Point(430, 320);
             this.rdoQuanLy_Them.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rdoQuanLy_Them.Name = "rdoQuanLy_Them";
             this.rdoQuanLy_Them.Size = new System.Drawing.Size(87, 24);
@@ -477,7 +462,6 @@
             this.groupPanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
             this.groupPanel1.Controls.Add(this.btnXoaTaiKhoan);
             this.groupPanel1.Controls.Add(this.btnLuu);
-            this.groupPanel1.Controls.Add(this.rdoGiamDoc);
             this.groupPanel1.Controls.Add(this.rdoQuanLy);
             this.groupPanel1.Controls.Add(this.rdoNhanVien);
             this.groupPanel1.Controls.Add(this.txtEmail);
@@ -544,22 +528,10 @@
             this.btnLuu.Text = "Lưu thay đổi";
             this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
             // 
-            // rdoGiamDoc
-            // 
-            this.rdoGiamDoc.AutoSize = true;
-            this.rdoGiamDoc.Location = new System.Drawing.Point(446, 189);
-            this.rdoGiamDoc.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.rdoGiamDoc.Name = "rdoGiamDoc";
-            this.rdoGiamDoc.Size = new System.Drawing.Size(102, 24);
-            this.rdoGiamDoc.TabIndex = 6;
-            this.rdoGiamDoc.TabStop = true;
-            this.rdoGiamDoc.Text = "Giám đốc";
-            this.rdoGiamDoc.UseVisualStyleBackColor = true;
-            // 
             // rdoQuanLy
             // 
             this.rdoQuanLy.AutoSize = true;
-            this.rdoQuanLy.Location = new System.Drawing.Point(345, 189);
+            this.rdoQuanLy.Location = new System.Drawing.Point(430, 189);
             this.rdoQuanLy.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rdoQuanLy.Name = "rdoQuanLy";
             this.rdoQuanLy.Size = new System.Drawing.Size(87, 24);
@@ -748,7 +720,6 @@
         private DevComponents.DotNetBar.Controls.DataGridViewX dgvDanhSachTaiKhoan;
         private DevComponents.DotNetBar.PanelEx panelEx1;
         private DevComponents.DotNetBar.Controls.GroupPanel groupPanel1;
-        private System.Windows.Forms.RadioButton rdoGiamDoc;
         private System.Windows.Forms.RadioButton rdoQuanLy;
         private System.Windows.Forms.RadioButton rdoNhanVien;
         private DevComponents.DotNetBar.Controls.TextBoxX txtEmail;
@@ -763,7 +734,6 @@
         private DevComponents.DotNetBar.ButtonX btnLuu;
         private DevComponents.DotNetBar.Controls.GroupPanel groupPanel2;
         private DevComponents.DotNetBar.ButtonX btnThem;
-        private System.Windows.Forms.RadioButton rdoGiamDoc_them;
         private System.Windows.Forms.RadioButton rdoQuanLy_Them;
         private System.Windows.Forms.RadioButton rdoNhanVien_Them;
         private DevComponents.DotNetBar.Controls.TextBoxX txtMatKhauNhapLai;

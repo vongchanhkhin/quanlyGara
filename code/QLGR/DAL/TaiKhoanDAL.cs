@@ -105,7 +105,7 @@ namespace QLGR.DataLayer
         public static void CapNhatTaiKhoanNhanVien(TaiKhoan taiKhoan)
         {
             DataAccessHelper db = new DataAccessHelper();
-            SqlCommand cmd = db.Command("UPDATE TAIKHOAN SET HOTEN = N'" + taiKhoan.HoTen + "', SDT = '" + taiKhoan.SDT + "', DIACHI = N'" + taiKhoan.DiaChi + "', EMAIL ='" + taiKhoan.Email + "' WHERE TENDANGNHAP = '" + taiKhoan.TenDangNhap + "' ");
+            SqlCommand cmd = db.Command("UPDATE TAIKHOAN SET HOTEN = N'" + taiKhoan.HoTen + "', SDT = '" + taiKhoan.SDT + "', DIACHI = N'" + taiKhoan.DiaChi + "', EMAIL ='" + taiKhoan.Email + "', QUYEN ='" + taiKhoan.Quyen + "' WHERE TENDANGNHAP = '" + taiKhoan.TenDangNhap + "' ");
 
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             db.dt = new DataTable();
