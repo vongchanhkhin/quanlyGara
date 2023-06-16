@@ -25,6 +25,7 @@ namespace QLGR.Presentation
             tabControl = _tabControl;
             tab = _tab;
             btnInPhieu.Enabled = false;
+            btnTraNo.Enabled = false;
         }
 
         private void frmPhieuThuTien_Load(object sender, EventArgs e)
@@ -53,6 +54,7 @@ namespace QLGR.Presentation
         {
             try
             {
+                btnTraNo.Enabled = true;
                 tienNoConLai = decimal.Parse(txtTienNo.Text) - decimal.Parse(txtTienTra.Text);
                 if (!string.IsNullOrEmpty(txtTienTra.Text))
                     txtTienNoConLai.Text = string.Format("{0:0,0}", decimal.Parse(tienNoConLai.ToString()));

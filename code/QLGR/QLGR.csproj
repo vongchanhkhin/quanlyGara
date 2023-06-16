@@ -425,6 +425,12 @@
   <ItemGroup>
     <None Include="Resources\Custom-Icon-Design-Pretty-Office-9-Edit-validated.16.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-change-password-40.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

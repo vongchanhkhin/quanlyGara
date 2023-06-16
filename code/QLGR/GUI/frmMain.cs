@@ -292,5 +292,10 @@ namespace QLGR.Presentation
         {
 
         }
+
+        private void ribbonPanel4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

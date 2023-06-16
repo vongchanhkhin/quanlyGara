@@ -127,7 +127,7 @@ namespace QLGR.Presentation
             chitiet.TonCuoi = int.Parse(txtSL.Text);
             chitiet.PhatSinh = -(int.Parse(txtSL.Text));
             chitiet.TonDau = 0;
-            ChiTietBaoCaoTonBLL.capNhatTonCuoi(chitiet);
+            // ChiTietBaoCaoTonBLL.capNhatTonCuoi(chitiet);
             ChiTietBaoCaoTonBLL.capNhatPhatSinh(chitiet);
 
             decimal thanhTien = decimal.Parse(txtThanhTien.Text);
