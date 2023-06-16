@@ -233,5 +233,10 @@ namespace QLGR.Presentation
                 MessageBox.Show(ex.Message, "Thông báo");
             }
         }
+
+        private void dgvCTPSC_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
