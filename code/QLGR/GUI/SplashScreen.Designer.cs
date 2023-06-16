@@ -41,10 +41,10 @@
             this.labelX1.BackColor = System.Drawing.Color.DimGray;
             this.labelX1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelX1.ForeColor = System.Drawing.Color.White;
-            this.labelX1.Location = new System.Drawing.Point(178, 464);
-            this.labelX1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.labelX1.Location = new System.Drawing.Point(158, 371);
+            this.labelX1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelX1.Name = "labelX1";
-            this.labelX1.Size = new System.Drawing.Size(969, 80);
+            this.labelX1.Size = new System.Drawing.Size(861, 64);
             this.labelX1.TabIndex = 1;
             this.labelX1.Text = "PHẦN MỀM QUẢN LÝ GARA";
             this.labelX1.TextAlignment = System.Drawing.StringAlignment.Center;
@@ -54,10 +54,10 @@
             this.labelX4.BackColor = System.Drawing.Color.DimGray;
             this.labelX4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelX4.ForeColor = System.Drawing.Color.White;
-            this.labelX4.Location = new System.Drawing.Point(850, 554);
-            this.labelX4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.labelX4.Location = new System.Drawing.Point(756, 443);
+            this.labelX4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelX4.Name = "labelX4";
-            this.labelX4.Size = new System.Drawing.Size(297, 31);
+            this.labelX4.Size = new System.Drawing.Size(264, 25);
             this.labelX4.TabIndex = 1;
             this.labelX4.Text = "by UIT_SoftTechIntro_Group10";
             this.labelX4.TextAlignment = System.Drawing.StringAlignment.Center;
@@ -73,24 +73,25 @@
             // 
             this.progressBarX1.BackColor = System.Drawing.Color.Teal;
             this.progressBarX1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.progressBarX1.Location = new System.Drawing.Point(178, 665);
-            this.progressBarX1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.progressBarX1.Location = new System.Drawing.Point(158, 532);
+            this.progressBarX1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.progressBarX1.Name = "progressBarX1";
-            this.progressBarX1.Size = new System.Drawing.Size(969, 21);
+            this.progressBarX1.Size = new System.Drawing.Size(861, 17);
             this.progressBarX1.TabIndex = 2;
+            this.progressBarX1.Click += new System.EventHandler(this.progressBarX1_Click);
             // 
             // SplashScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Teal;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1240, 802);
+            this.ClientSize = new System.Drawing.Size(1102, 642);
             this.Controls.Add(this.progressBarX1);
             this.Controls.Add(this.labelX4);
             this.Controls.Add(this.labelX1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "SplashScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SplashScreen";
