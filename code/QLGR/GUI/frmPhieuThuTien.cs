@@ -55,16 +55,27 @@ namespace QLGR.Presentation
             try
             {
                 btnTraNo.Enabled = true;
+
+                if (string.IsNullOrEmpty(txtTienTra.Text))
+                {
+                    btnTraNo.Enabled = false;
+                    tienNoConLai = decimal.Parse(txtTienNo.Text);
+                    txtTienNoConLai.Text = string.Format("{0:0,0}", decimal.Parse(tienNoConLai.ToString()));
+                }
+
                 tienNoConLai = decimal.Parse(txtTienNo.Text) - decimal.Parse(txtTienTra.Text);
+                
                 if (!string.IsNullOrEmpty(txtTienTra.Text))
                     txtTienNoConLai.Text = string.Format("{0:0,0}", decimal.Parse(tienNoConLai.ToString()));
-                if (tienNoConLai <0)
+                
+                if (tienNoConLai < 0)
                 {
                     MessageBox.Show("Tiền thu không được lớn hơn tiền nợ", "Thông báo", MessageBoxButtons.OK);
                     txtTienTra.Clear();
                     tienNoConLai = decimal.Parse(txtTienNo.Text);
                     txtTienNoConLai.Text = string.Format("{0:0,0}", decimal.Parse(tienNoConLai.ToString()));
                 }
+                
             }
             catch(Exception ex)
             {
@@ -80,6 +91,7 @@ namespace QLGR.Presentation
 
         private void btnTraNo_Click(object sender, EventArgs e)
         {
+
             if (decimal.Parse(txtTienTra.Text) <= 0)
             {
                 MessageBox.Show("Nhập số tiền lớn hơn 0VND", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
