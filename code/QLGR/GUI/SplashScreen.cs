@@ -27,5 +27,10 @@ namespace QLGR.Presentation
         {
 
         }
+
+        private void progressBarX1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

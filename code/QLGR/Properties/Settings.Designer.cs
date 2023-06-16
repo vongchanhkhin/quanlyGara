@@ -26,8 +26,8 @@ namespace QLGR.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.;Initial Catalog=QLGR;Integrated Security=True;MultipleActiveResultS" +
-            "ets=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-9MAHMMAU\\MSSQLSERVER01;Initial Catalog=QLGR;Integrated Securit" +
+            "y=True;MultipleActiveResultSets=True")]
         public string QLGRCon {
             get {
                 return ((string)(this["QLGRCon"]));
