@@ -13,8 +13,6 @@ namespace QLGR.Presentation
 
         private void ProgressBar_Tick(object sender, EventArgs e)
         {
-            progressBarX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2010; // Đặt kiểu ProgressBarX
-            progressBarX1.BarColor = Color.Red; // Đặt màu cho thanh ProgressBarX
             progressBarX1.Increment(1);
             if (progressBarX1.Value == 100)
             {
